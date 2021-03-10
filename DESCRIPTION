@@ -1,6 +1,7 @@
 Package: package2
 Type: Package
 Title: This Package Analyses Natural Information Like Soils and Populations
+Version: 0.1.0
 Author: Simone & Lizzy
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: This is a test package to demonstrate package documentation. It contains 5 funtions and a dataset.
@@ -11,3 +12,5 @@ Depends:
     tidyverse,
     R (>= 2.10)
 RoxygenNote: 7.1.1
+Roxygen: list(markdown = TRUE)
+
