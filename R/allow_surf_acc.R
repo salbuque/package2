@@ -1,8 +1,17 @@
+#' Allowable Surface Accumulation
+#'
+#' This function calculates the allowable surface accumulation for a specific soil intake rate
+#'
+#'@param  inputs are the intake rate
+#'@return  outputs are the allowable surface accumulation
+#'@example  Allow_surface_acc(0.5)
+#'@author  Simone Albuquerque
+
 Allow_surf_acc = function(IR) {
-  
+
   if (IR != c("0.1", "0.15", "0.2", "0.35", "0.4", "0.5", "0.6"))
     return("IR option not available choose from 01, 0.15, 0.2, 0.35, 0.4, 0.5, 0.6 ")
-  
+
   ASA = case_when(
     IR == 0.1 ~ 0.2,
     IR == 0.15 ~  0.23,
