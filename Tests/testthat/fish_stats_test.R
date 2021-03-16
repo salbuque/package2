@@ -1,5 +1,5 @@
 test_that("fish_stats_Works", {
-fake_fish_data<- as.data.frame(x = as.factor(c("ray", "salmon", "seabass", "seabass", "ray", "goldfish", "goldfish", "ray")))
+fake_fish_data<- as.data.frame(x = as_factor(c("ray", "salmon", "seabass", "seabass", "ray", "goldfish", "goldfish", "ray")))
 
 expect_match(fish_stats(fake_fish_data, graph = FALSE)$most_common, "ray", fixed = TRUE)
 })
