@@ -1,7 +1,3 @@
-library(testthat)
-library(devtools)
-
-
 test_that("fish_stats_test", {
 fake_fish_data<- as.data.frame(x = c("ray", "salmon", "seabass", "seabass", "ray", "goldfish", "goldfish", "ray"))
 

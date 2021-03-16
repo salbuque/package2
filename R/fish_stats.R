@@ -36,3 +36,4 @@ fish_stats = function(fish_vector, graph = FALSE) {
   } else
   return(fish_values)
 }
+
